@@ -15,6 +15,7 @@ int main(void) {
 		printf("grade[%i]=%i\n", i, *(grade+i));
 		average = average + *(grade+i);
 	}
-	printf("average : %i", average);
+	
+	printf("average : %i", average/5);
 	return 0;
 }
